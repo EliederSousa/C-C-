@@ -12,7 +12,7 @@ int main( int argc, char* argv[] ) {
         std::cout << "Process : " << (char*)pe32.szExeFile << std::endl;
     }
     
-    // You can use these line below in order to check against a process name (ie: if a particular program is running)
+    // You can use these lines below in order to check against a process name (ie: if a particular program is running)
     /* while (Process32Next(hSnapshot, &pe32) == TRUE) {
         std::cout << "Checking Process : " << (char*)pe32.szExeFile << " against : " << processName << std::endl;
         
